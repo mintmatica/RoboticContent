@@ -1,15 +1,15 @@
 const settings = [
   {
-    name: "frontity-org",
+    name: "RoboticContent",
     match: ["(\\?|&)post_type=\\w+"],
     state: {
       frontity: {
-        url: "https://frontity.org",
-        title: "Frontity",
-        description: "The React framework for WordPress",
+        url: "https://roboticcontent.com",
+        title: "RoboticContent",
+        description: "Artificial Intelligence Content Creation",
       },
       source: {
-        url: "https://frontity.org",
+        url: "https://roboticcontent.com",
       },
     },
     packages: [
@@ -42,15 +42,6 @@ const settings = [
       },
       "@frontity/tiny-router",
       "@frontity/html2react",
-      {
-        name: "@frontity/yoast",
-        state: { yoast: { renderTags: "server" } },
-      },
-      {
-        name: "@frontity/google-tag-manager-analytics",
-        state: { googleTagManagerAnalytics: { containerId: "GTM-NDGDFKR" } },
-      },
-      "frontity-contact-form-7",
     ],
   },
   {
@@ -58,12 +49,12 @@ const settings = [
     match: ["https?:\\/\\/[^/]+\\/blog([^-\\w]|$)", "(\\?|&)p=\\d+"],
     state: {
       frontity: {
-        url: "https://frontity.org",
-        title: "Frontity Blog",
-        description: "The React framework for WordPress",
+        url: "https://roboticcontent.com",
+        title: "Robotic Content Blog",
+        description: "Artificial Intelligence Content Creation",
       },
       source: {
-        url: "https://frontity.org",
+        url: "https://roboticcontent.com",
       },
     },
     packages: [
@@ -123,14 +114,6 @@ const settings = [
       },
       "@frontity/tiny-router",
       "@frontity/html2react",
-      {
-        name: "@frontity/yoast",
-        state: { yoast: { renderTags: "server" } },
-      },
-      {
-        name: "@frontity/google-tag-manager-analytics",
-        state: { googleTagManagerAnalytics: { containerId: "GTM-NDGDFKR" } },
-      },
     ],
   },
 ];
