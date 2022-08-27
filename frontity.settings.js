@@ -2,9 +2,9 @@ const settings = {
   "name": "roboticcontent",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "url": "https://roboticcontent.com",
+      "title": "Robotic Content",
+      "description": "Artificially Created Content News and Tools"
     }
   },
   "packages": [
@@ -16,18 +16,6 @@ const settings = {
             [
               "Home",
               "/"
-            ],
-            [
-              "Nature",
-              "/category/nature/"
-            ],
-            [
-              "Travel",
-              "/category/travel/"
-            ],
-            [
-              "Japan",
-              "/tag/japan/"
             ],
             [
               "About Us",
@@ -45,7 +33,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          "url": "https://roboticcontent.com"
         }
       }
     },
